@@ -1,0 +1,32 @@
+# Python runtime artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local research results may reveal a user's projects, districts, budgets, and interests
+wuhan-output/
+output/
+cache/
+*.log
+
+# Generated property evidence/reports
+*.csv
+*.json
+*.html
+!README.html
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Keep the static GitHub Pages source controlled
+!docs/**/*.html
+!docs/**/*.css
+!docs/**/*.js
